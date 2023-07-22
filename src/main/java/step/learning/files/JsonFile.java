@@ -19,7 +19,7 @@ public  JsonFile(){
                 .create();
     }
 
-    public void save(List<Literature> collection) {
+    public  void save(List<Literature> collection) {
 
        List<CoverForSerialize> coverSer = new ArrayList<>();
 

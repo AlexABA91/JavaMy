@@ -21,9 +21,9 @@ public class App
         //new GsonDemo().run();
         // new DbDemo().run();
 
-        new Library().save();
-        new Library().Load();
-
+        //new Library().save();
+        //new Library().Load();
+        new DbDemo().run();
     }
 }
 /*

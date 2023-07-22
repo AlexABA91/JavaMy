@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="Config">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsetings-sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appsetings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/control/ControlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/control/PifagorTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/CoverForSerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/DataObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/DataObject2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/GsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Booklet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Copiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Expo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Hologram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Literature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Newspaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Periodic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Poster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="home work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsetings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsetings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,24 +84,53 @@
       <option name="presentableId" value="Default" />
       <updated>1689834620118</updated>
       <workItem from="1689834621221" duration="8687000" />
-      <workItem from="1689918932916" duration="29803000" />
+      <workItem from="1689918932916" duration="36534000" />
     </task>
+    <task id="LOCAL-00001" summary="Config">
+      <option name="closed" value="true" />
+      <created>1690040753486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690040753486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="home work">
+      <option name="closed" value="true" />
+      <created>1690040780222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690040780222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config" />
+    <MESSAGE value="home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="home work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
