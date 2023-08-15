@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="home work">
+    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsetings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsetings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/files/JsonFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c60980cb-792b-453d-b776-6f03e4eec329" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -48,6 +48,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
@@ -84,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689834620118</updated>
       <workItem from="1689834621221" duration="8687000" />
-      <workItem from="1689918932916" duration="36534000" />
+      <workItem from="1689918932916" duration="37209000" />
+      <workItem from="1692079030891" duration="14577000" />
     </task>
     <task id="LOCAL-00001" summary="Config">
       <option name="closed" value="true" />
@@ -102,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690040780222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add random to DB">
+      <option name="closed" value="true" />
+      <created>1690048415844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690048415844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,15 +134,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Config" />
     <MESSAGE value="home work" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work" />
+    <MESSAGE value="add random to DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="add random to DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="5" />
+          <line>85</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
