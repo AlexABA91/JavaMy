@@ -2,6 +2,9 @@ package step.learning.ioc;
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
 
+import java.util.Scanner;
+import java.util.logging.SocketHandler;
+
 public class IocApp {
     /* @Inject
     private GreetingService helloService;
@@ -13,19 +16,35 @@ public class IocApp {
     private final GreetingService helloService;
     private final PartingService byeService;
     private final PartingService goodByeService;
+    private final HashService md5;
+    private final HashService sha1;
    @Inject
-    public IocApp(GreetingService helloService, @Named("bye") PartingService byeService, @Named("goodbye") PartingService goodByeService) {
+    public IocApp(GreetingService helloService,
+                  @Named("bye") PartingService byeService,
+                  @Named("goodbye") PartingService goodByeService,
+                   @Named("md5") HashService md5,
+                  @Named("sha1") HashService sha1) {
         this.helloService = helloService;
         this.byeService = byeService;
         this.goodByeService = goodByeService;
+        this.md5 = md5;
+        this.sha1 = sha1;
     }
 
 
     public void run(){
         System.out.println("App Work");
-        helloService.sayHello();
-        byeService.sayGoodbye();
-        goodByeService.sayGoodbye();
+       // helloService.sayHello();
+       // byeService.sayGoodbye();
+       // goodByeService.sayGoodbye();
+        System.out.print("Введите строку : ");
+        Scanner scanner = new Scanner(System.in);
+
+        String text = scanner.nextLine();
+        System.out.printf( "MD5 From : %s -- To : %s \n",text, md5.getHash(text));
+        System.out.printf( "SHA1 From : %s -- To : %s \n",text, sha1.getHash(text));
+
+
     }
 }
 /*

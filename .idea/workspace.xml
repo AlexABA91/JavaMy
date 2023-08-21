@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/dao/RecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/dto/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ByeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/GoodByeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/GreetingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/HIService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/IocApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/PartingService.java" afterDir="false" />
+    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="add full CRUD DB HomeWork">
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/HashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/Md5Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/Sha1Hash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsetings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsetings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/DbDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/ioc/IocApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/IocApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,7 @@
       <workItem from="1692252332996" duration="9483000" />
       <workItem from="1692278767004" duration="5000" />
       <workItem from="1692338501218" duration="9715000" />
-      <workItem from="1692604192036" duration="4220000" />
+      <workItem from="1692604192036" duration="8740000" />
     </task>
     <task id="LOCAL-00001" summary="Config">
       <option name="closed" value="true" />
@@ -144,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692113636381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add full CRUD DB HomeWork">
+      <option name="closed" value="true" />
+      <created>1692608881131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692608881131</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +166,8 @@
     <MESSAGE value="home work" />
     <MESSAGE value="add random to DB" />
     <MESSAGE value="add propQuery DB HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="add propQuery DB HomeWork" />
+    <MESSAGE value="add full CRUD DB HomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="add full CRUD DB HomeWork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

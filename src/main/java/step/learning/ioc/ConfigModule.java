@@ -14,6 +14,9 @@ public class ConfigModule  extends AbstractModule {
         // именованное связывание (несколько реализаций одного типа)
         bind(PartingService.class).annotatedWith(Names.named("bye")).to(ByeService.class);
         bind(PartingService.class).annotatedWith(Names.named("goodbye")).to(GoodByeService.class);
+        bind(HashService.class).annotatedWith(Names.named("md5")).to(Md5Hash.class);
+        bind(HashService.class).annotatedWith(Names.named("sha1")).to(Sha1Hash.class);
+
 
     }
 }

@@ -27,13 +27,13 @@ public class App
 
         //new Library().save();
         //new Library().Load();
-        new DbDemo().run();
-       // Injector injector = Guice.createInjector(
+      //  new DbDemo().run();
+        Injector injector = Guice.createInjector(
                 // модули конфигурации - свободное количество
-        //        new ConfigModule()
-       // );
-       // IocApp app = injector.getInstance(IocApp.class); // Resolve
-       // app.run(); // передача управления главному классу
+                new ConfigModule()
+        );
+        IocApp app = injector.getInstance(IocApp.class); // Resolve
+        app.run(); // передача управления главному классу
     }
 }
 /*
