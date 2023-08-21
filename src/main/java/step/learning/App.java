@@ -1,9 +1,13 @@
 package step.learning;
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 import step.learning.control.ControlDemo;
 import step.learning.db.DbDemo;
 import step.learning.files.FileDemo;
 import step.learning.files.GsonDemo;
 import step.learning.files.JsonFile;
+import step.learning.ioc.ConfigModule;
+import step.learning.ioc.IocApp;
 import step.learning.oop.Library;
 
 
@@ -24,6 +28,12 @@ public class App
         //new Library().save();
         //new Library().Load();
         new DbDemo().run();
+       // Injector injector = Guice.createInjector(
+                // модули конфигурации - свободное количество
+        //        new ConfigModule()
+       // );
+       // IocApp app = injector.getInstance(IocApp.class); // Resolve
+       // app.run(); // передача управления главному классу
     }
 }
 /*
@@ -59,24 +69,24 @@ Development Kit)
 тип - org.apache.maven.archetypes:maven-archetype-quickstart
 
 после создания проэкта конфигурируем запуск( в начале настроен запуск current file) -
-Edit Configuration  - create new -- вводим название  и выбераем главный класс.
+Edit Configuration  - create new -- вводим название  и выберем главный класс.
 
  */
 
 /*
-* Java - интерпритируемый язык коорый с файла .java (выходной кол )
-* компелирует в файлы .class (срединый код ) который выполняется jvm командой java.exe step.learning.App
+* Java - интерпретируемый язык который с файла .java (выходной кол)
+* компилирует в файлы class (срединный код) который выполняется jvm командой java.exe step.learning.App
 *
-* в отличии от Studio отдельное окно консоли не создается виведение проводится через IDE, окно Run
+* в отличии от Studio отдельное окно консоли не создается введение, проводится через IDE, окно Run
 *
 * В Java строгая привязка к структуре файлов и папок
-* - папка - это package (пкет, анолог NameSpase)
-*  название папки один к одному с  именем пакета. Принято Нижний регистр для названия пакетов.
-* - файл - это класс. Ограничение  - один файл - один public класс
-* замечание: -   в водном файле может быть нескольео класов но только один ви демый.
-* а ткже есть внутрение клвссы (Nested)класы - в класе
-* Название класса также должны сбегатся с названием файла
-* Для имен класов принято CapitalCamelCase
+* - папка - это package (пакет, аналог NameSpase)
+*  название папки один к одному с именем пакета. Принято Нижний регистр для названия пакетов.
+* - файл - это класс. Ограничение - один файл - один public класс
+* замечание: - в водном файле может быть несколько классов, но только один видимый.
+* а также есть внутренние классы (Nested) классы - в классе
+* Название класса также должны сбегаться с названием файла
+* Для имен классов принято CapitalCamelCase
 *
 * Control flow insruction - инструкции управления упрравлением оператор условного и цикличного выполнения, а также
 * переходов между инструкциями
