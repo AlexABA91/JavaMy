@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="add full CRUD DB HomeWork">
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/HashService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/Md5Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/Sha1Hash.java" afterDir="false" />
+    <list default="true" id="056ef6d4-d19d-4584-86f0-e1c3a5efdf51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/treating/TreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" afterDir="false" />
@@ -102,7 +100,7 @@
       <workItem from="1692252332996" duration="9483000" />
       <workItem from="1692278767004" duration="5000" />
       <workItem from="1692338501218" duration="9715000" />
-      <workItem from="1692604192036" duration="8740000" />
+      <workItem from="1692604192036" duration="21667000" />
     </task>
     <task id="LOCAL-00001" summary="Config">
       <option name="closed" value="true" />
@@ -144,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692608881131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Hash (md5,sha1) service by dependency injection">
+      <option name="closed" value="true" />
+      <created>1692617490895</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692617490895</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +173,8 @@
     <MESSAGE value="add random to DB" />
     <MESSAGE value="add propQuery DB HomeWork" />
     <MESSAGE value="add full CRUD DB HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="add full CRUD DB HomeWork" />
+    <MESSAGE value="add Hash (md5,sha1) service by dependency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Hash (md5,sha1) service by dependency injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

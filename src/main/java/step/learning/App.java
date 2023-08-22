@@ -9,6 +9,7 @@ import step.learning.files.JsonFile;
 import step.learning.ioc.ConfigModule;
 import step.learning.ioc.IocApp;
 import step.learning.oop.Library;
+import step.learning.treating.TreadDemo;
 
 
 /**
@@ -32,8 +33,10 @@ public class App
                 // модули конфигурации - свободное количество
                 new ConfigModule()
         );
-        IocApp app = injector.getInstance(IocApp.class); // Resolve
-        app.run(); // передача управления главному классу
+         injector.getInstance(
+                IocApp.class
+                // TreadDemo.class
+        ).run(); // Resolve
     }
 }
 /*
