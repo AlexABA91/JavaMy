@@ -9,6 +9,7 @@ import step.learning.files.JsonFile;
 import step.learning.ioc.ConfigModule;
 import step.learning.ioc.IocApp;
 import step.learning.oop.Library;
+import step.learning.treating.PercentDemo;
 import step.learning.treating.TreadDemo;
 
 
@@ -34,8 +35,9 @@ public class App
                 new ConfigModule()
         );
          injector.getInstance(
-                IocApp.class
-                // TreadDemo.class
+                //IocApp.class
+                //     TreadDemo.class
+                 PercentDemo.class
         ).run(); // Resolve
     }
 }
